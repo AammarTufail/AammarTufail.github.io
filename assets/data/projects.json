@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "title": "Project 1",
+      "description": "An analysis of customer segmentation using clustering techniques.",
+      "technologies": ["Python", "Pandas", "Scikit-learn"],
+      "link": "https://github.com/username/project1",
+      "thumbnail": "assets/images/project-thumbnails/project1.svg"
+    },
+    {
+      "title": "Project 2",
+      "description": "A predictive model for housing prices using regression analysis.",
+      "technologies": ["R", "ggplot2", "caret"],
+      "link": "https://github.com/username/project2",
+      "thumbnail": "assets/images/project-thumbnails/project2.svg"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+/* 
+This file contains styles for making the portfolio website responsive, ensuring it looks good on various devices. 
+*/
+
+@media (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .header, .footer {
+        text-align: center;
+    }
+    .nav {
+        display: block;
+    }
+    .nav-item {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+}
